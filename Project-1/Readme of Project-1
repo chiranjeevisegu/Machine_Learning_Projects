@@ -1,0 +1,20 @@
+🔁 Pipeline
+1. Data Preprocessing
+-Normalize pixel values (0–255 → 0–1)
+-Reshape input for CNN
+-One-hot encode labels (optional)
+
+2. Model Building
+-Use a Sequential CNN mode
+-Layers: Conv2D → MaxPooling → Flatten → Dense → Output
+
+3. Model Training
+-Optimizer: Adam
+-Loss: Sparse Categorical Crossentropy
+-Metrics: Accuracy
+-Epochs: 5 (can be tuned)
+
+4. Evaluation
+-Evaluate model on test set
+-View accuracy and loss metrics
+-Plot training history
