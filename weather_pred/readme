@@ -1,9 +1,9 @@
-Weather Forecasting for New Delhi Using LSTM
+##**Weather Forecasting for New Delhi Using LSTM**
 This project develops a deep learning model to predict the next day's temperature in New Delhi using historical weather data. The model employs a stacked Long Short-Term Memory (LSTM) neural network trained on preprocessed weather features, achieving a validation RMSE of 3.5350°C and a test RMSE of approximately 4.3767°C.
 Project Overview
 The goal is to forecast the daily temperature (next_day_temp) in New Delhi using a time-series approach. The pipeline includes:
 
-Data Preprocessing: Cleaning, feature engineering, and scaling.
+##**Data Preprocessing: Cleaning, feature engineering, and scaling.**
 Exploratory Data Analysis (EDA): Visualizing trends, correlations, seasonality, and stationarity.
 Model Training: Building and training a stacked LSTM model with time-series cross-validation.
 Prediction: Forecasting the next 5 days' temperatures using the trained model.
