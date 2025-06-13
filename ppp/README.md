@@ -193,5 +193,5 @@ Check application health and status.
   "active_sessions": 5,
   "cache_size": 10,
   "config": {
-    "max_history_files": 100,
-    "ses 
+    "max_history_files": 100,}
+}
